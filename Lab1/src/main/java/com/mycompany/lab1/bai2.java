@@ -11,6 +11,7 @@ package com.mycompany.lab1;
 public class bai2 {
 
     public static void main(String[] args) {
-          // sinh viên code ở đây
+            System.out.println("dung");
+          // sinh Symviên code ở đây
     }
 }
