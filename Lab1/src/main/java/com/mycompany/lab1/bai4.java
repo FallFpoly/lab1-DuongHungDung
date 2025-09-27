@@ -4,6 +4,8 @@
 
 package com.mycompany.lab1;
 
+import java.util.Scanner;
+
 /**
  *
  * @author ICT
@@ -11,6 +13,17 @@ package com.mycompany.lab1;
 public class bai4 {
 
     public static void main(String[] args) {
-          // sinh viên code ở đây
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("Nhap a: ");
+            double a = sc.nextDouble();
+            System.out.print("Nhap b: ");
+            double b = sc.nextDouble();
+            System.out.print("Nhap c: ");
+            double c = sc.nextDouble();
+            double delta = Math.pow(b, 2) - 4 * a * c;
+            double canDelta = Math.sqrt(delta);
+            System.out.println("Delta = " + delta);
+            System.out.println("Can delta = " + canDelta);
+        }
     }
 }
